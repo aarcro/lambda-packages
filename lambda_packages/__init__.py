@@ -153,5 +153,16 @@ lambda_packages = {
             'version': '1.0.9',
             'path': os.path.join(PACKAGES_DIR, 'xmlsec', 'python3.6-xmlsec-1.0.9.tar.gz')
         }
+    'cryptography': {
+        'version': '1.4',
+        'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                             'cryptography', 'cryptography-1.4.tar.gz')
+    },
+    'GDAL': {
+        'version': '2.0.0',
+        'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                             'GDAL', 'gdal-2.0.0-amz1.tar.gz')
     }
+
+
 }
