@@ -160,4 +160,11 @@ lambda_packages = {
             'path': os.path.join(PACKAGES_DIR, 'GDAL', 'python3.6-gdal-2.2.3-amz1.tar.gz')
         }
     },
+    # A hack?
+    'pygdal': {
+        'python3.6': {
+            'version': '2.2.3',
+            'path': os.path.join(PACKAGES_DIR, 'GDAL', 'python3.6-gdal-2.2.3-amz1.tar.gz')
+        }
+    },
 }
